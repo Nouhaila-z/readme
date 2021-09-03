@@ -24,7 +24,7 @@ Plusieurs options de démarrage rapide sont disponibles :
 
 Dans le téléchargement, vous trouverez les répertoires et fichiers suivants, regroupant logiquement les ressources communes et fournissant à la fois des variantes compilées et réduites. Vous verrez quelque chose comme ceci :
 
-bootstrap/  
+**bootstrap/  
 ├── css/  
 │   ├── bootstrap-grid.css  
 │   ├── bootstrap-grid.css.map  
@@ -70,7 +70,20 @@ bootstrap/
     ├── bootstrap.js  
     ├── bootstrap.js.map  
     ├── bootstrap.min.js  
-    └── bootstrap.min.js.map  
+    └── bootstrap.min.js.map**
+   
+  
+## Documentation 
+
+La documentation de Bootstrap, incluse dans ce référentiel dans le répertoire racine, hébergée publiquement sur les pages GitHub à l'adresse https://getbootstrap.com/ . Les documents peuvent également être exécutés localement.
+
+La recherche de documentation est alimentée par DocSearch d'Algolia . Travailler sur notre recherche? Assurez - vous de mettre debug: trueen site/assets/js/search.js.
+
+Exécuter la documentation localement
+Exécutez **npm install** pour installer les dépendances Node.js, y compris Hugo (le constructeur de site).
+Exécutez **npm run test(ou un script npm spécifique)** pour reconstruire les fichiers CSS et JavaScript distribués, ainsi que nos actifs docs.
+À partir du /bootstraprépertoire racine , exécutez **npm run docs-servela** ligne de commande.
+Ouvrez http://localhost:9001/dans votre navigateur, et voilà.
 
 
 
