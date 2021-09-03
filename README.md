@@ -82,7 +82,7 @@ La recherche de documentation est alimentée par DocSearch d'Algolia . Travaille
 Exécuter la documentation localement
 Exécutez **npm install** pour installer les dépendances Node.js, y compris Hugo (le constructeur de site).
 Exécutez **npm run test(ou un script npm spécifique)** pour reconstruire les fichiers CSS et JavaScript distribués, ainsi que nos actifs docs.
-À partir du /bootstraprépertoire racine , exécutez **npm run docs-servela** ligne de commande.
+À partir du /bootstraprépertoire racine , exécutez **npm run docs-serve** la ligne de commande.
 Ouvrez http://localhost:9001/dans votre navigateur, et voilà.
 
 
